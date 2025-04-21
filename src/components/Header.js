@@ -13,7 +13,7 @@ const Header = () => {
               className="custom-logo"
               style={{ width: '60px', height: '40px' }}
             />
-            <span className="company-name">JOKKO DESIGN</span>
+            <span className="company-name">JokkoDesign</span>
           </a>
         </div>
 

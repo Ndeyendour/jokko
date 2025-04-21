@@ -21,7 +21,7 @@ const Home = () => {
     },
     {
       icon: "/assets/img/icon5.png",
-      title: "Applications Mobiles",
+      title: "Développement Mobile",
       description: "Apps iOS/Android natives avec React Native et Flutter. Interfaces fluides, intégration API sécurisée et maintenance évolutive pour une expérience mobile optimale."
     },
     {
@@ -51,7 +51,15 @@ const Home = () => {
       <br/>
       <br/>
       <AdBanner /> */}
-     
+     <div id="at-preloader">
+    <div className='at-preloader-dots'>
+      <div className='at-dot'></div>
+      <div className='at-dot'></div>
+      <div className='at-dot'></div>
+      <div className='at-dot'></div>
+      <div className='at-dot'></div>
+    </div>
+  </div>
       <Header />
       <HeroSection />
       <FeaturedServices />

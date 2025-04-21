@@ -2053,10 +2053,10 @@ a:active {
 }
 
 .at-portfolio-filter .active .at-btn.at-style1 {
-    background-image: -webkit-gradient(linear, left top, right top, from(rgb(42, 49, 163)), to(rgb(191, 195, 250)));
-    background-image: -webkit-linear-gradient(left, rgb(42, 49, 163), rgb(191, 195, 250));
-    background-image: -o-linear-gradient(left, rgb(42, 49, 163), rgb(191, 195, 250));
-    background-image: linear-gradient(to right, rgb(42, 49, 163), rgb(191, 195, 250));
+    background-image: -webkit-gradient(linear, left top, right top, from(#4ebf57), to(#a8e6ad));
+    background-image: -webkit-linear-gradient(left, #4ebf57, #a8e6ad);
+    background-image: -o-linear-gradient(left, #4ebf57, #a8e6ad);
+    background-image: linear-gradient(to right, #4ebf57, #a8e6ad);
 }
 
 .at-portfolio-filter .active .at-btn.at-style1 {

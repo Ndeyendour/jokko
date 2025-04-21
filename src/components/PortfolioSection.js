@@ -3,19 +3,27 @@ import React from 'react';
 const filters = [
   { label: 'Tous', filter: '*', active: true },
   { label: 'Identité visuelle', filter: '.branding' },
-  { label: 'Design UX/UI', filter: '.webdesign' },
-  { label: 'Supports marketing', filter: '.marketing' },
-  { label: 'Graphisme créatif', filter: '.graphic' },
-  { label: 'E-commerce', filter: '.ecommerce' },
+  { label: 'Design UX/UI', filter: '.uxui' },
+  { label: 'Creation graphique', filter: '.print' },
+  // { label: 'Creation graphique', filter: '.motion' },
+  { label: 'Développement web & mobile', filter: '.dev' },
 ];
 
 const portfolioItems = [
-  { category: 'branding', image: '/assets/img/port1.jpg' },
-  { category: 'marketing', image: '/assets/img/port2.jpg' },
-  { category: 'graphic', image: '/assets/img/port3.jpg' },
-  { category: 'webdesign', image: '/assets/img/port4.jpg' },
-  { category: 'marketing', image: '/assets/img/port5.jpg' },
-  { category: 'ecommerce', image: '/assets/img/port6.jpg' },
+  // 5 éléments d'identité visuelle
+  { category: 'branding', image: '/assets/img/l4.png' },
+  { category: 'branding', image: '/assets/img/l2.png' },
+  { category: 'branding', image: '/assets/img/l1.png' },
+  // { category: 'branding', image: '/assets/img/l1.png' },
+  // { category: 'branding', image: '/assets/img/l2.png' },
+  // Autres catégories
+  { category: 'uxui', image: '/assets/img/p1.jpg' },
+  { category: 'uxui', image: '/assets/img/p2.png' },
+  { category: 'print', image: '/assets/img/p3.png' },
+  { category: 'print', image: '/assets/img/p4.png' },
+  { category: 'print', image: '/assets/img/p5.png' },
+  { category: 'motion', image: '/assets/img/p6.png' },
+  { category: 'dev', image: '/assets/img/p1.jpg' },
 ];
 
 const PortfolioSection = () => {

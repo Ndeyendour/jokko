@@ -18,7 +18,7 @@
   <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".primary-nav">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -40,5 +40,22 @@
   <script src="assets/js/isotope.min.js"></script>
   <script src="assets/js/wow.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>
+    const toggleBtn = document.getElementById('hamburger-toggle');
+    const nav = document.querySelector('.primary-nav');
+    const links = document.querySelectorAll('.primary-nav .nav-link');
+  
+    toggleBtn.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  
+    // Fermer le menu quand on clique sur un lien (optionnel mais recommandé)
+    links.forEach(link => {
+      link.addEventListener('click', () => {
+        nav.classList.remove('open');
+      });
+    });
+  </script>
+  
   </body>
 </html>
